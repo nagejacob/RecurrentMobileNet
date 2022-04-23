@@ -1,0 +1,10 @@
+name: recurrent_mobilenet
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - cudatoolkit=10.2.89
+  - python=3.8
+  - pytorch=1.7.0
+  - torchvision=0.8.1
+  - tqdm
